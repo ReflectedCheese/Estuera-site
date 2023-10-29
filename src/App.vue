@@ -1,14 +1,12 @@
 <script setup>
-import Banaan from "./components/Banaan.vue";
+import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
-  <div>
-   
-  </div>
-
-  <!--<HelloWorld msg="HOPPA DE POPPA" />-->
-  <Banaan title="Een Ransbanaan" />
+  <Header />
+  <router-view />
+  <Footer />
 </template>
 
 <style scoped></style>
