@@ -1,29 +1,36 @@
 <template>
+<div class="content">
     <img src="/studio-hero.jpg" class="studio-foto" />
-    <div class="content">
-      <h1>Latest releases</h1>
-      <div class="albums">
-        <a href="https://www.youtube.com/watch?v=ueLevnjQ6Fw">
-            <img src="/jupiter-impulse.jpg" class="album" /></a>
-        <a href="https://www.youtube.com/watch?v=HCgrBSurmlk">
-            <img src="/anaphora.jpg" class="album" /></a>
-        <a href="https://www.youtube.com/watch?v=bTc2L4KM7Hw">
-            <img src="/elpida.jpg" class="album" /></a>
-        <a href="https://www.youtube.com/watch?v=i2K1JPRZrqE">
-            <img src="/somnium.jpg" class="album" /></a>
-        <a href="https://www.youtube.com/watch?v=nxp5fcwJw2I">
-            <img src="/umbra.jpg" class="album" /></a>
-        <a href="https://www.youtube.com/watch?v=ysCD10oSTQg">
-            <img src="/little-white-lies.jpg" class="album" /></a>
-        <a href="https://www.youtube.com/watch?v=UkX4bNY20zg">
-            <img src="/ex-tempore.jpg" class="album" /></a>
-      </div>
+    <h1>Latest releases</h1>
+    <div class="albums">
+      <a href="https://www.youtube.com/watch?v=ueLevnjQ6Fw">
+        <img src="/jupiter-impulse.jpg" class="album"
+      /></a>
+      <a href="https://www.youtube.com/watch?v=HCgrBSurmlk">
+        <img src="/anaphora.jpg" class="album"
+      /></a>
+      <a href="https://www.youtube.com/watch?v=bTc2L4KM7Hw">
+        <img src="/elpida.jpg" class="album"
+      /></a>
+      <a href="https://www.youtube.com/watch?v=i2K1JPRZrqE">
+        <img src="/somnium.jpg" class="album"
+      /></a>
+      <a href="https://www.youtube.com/watch?v=nxp5fcwJw2I">
+        <img src="/umbra.jpg" class="album"
+      /></a>
+      <a href="https://www.youtube.com/watch?v=ysCD10oSTQg">
+        <img src="/little-white-lies.jpg" class="album"
+      /></a>
+      <a href="https://www.youtube.com/watch?v=UkX4bNY20zg">
+        <img src="/ex-tempore.jpg" class="album"
+      /></a>
     </div>
+</div>
 </template>
 
 <style scoped>
 .studio-foto {
-  padding-top: 40px;
+  padding-top: 50px;
   width: 100%;
 }
 .content {
@@ -31,7 +38,7 @@
   margin-top: -6px;
   width: 100%;
   min-width: 320px;
-  padding: 1rem;
+  padding-bottom: 2rem;
   background-color: rgb(19, 19, 19);
 }
 
@@ -59,7 +66,5 @@ h1 {
 a:hover {
   transform: scale(1.1);
   transition: 1s;
-  
-  
 }
 </style>

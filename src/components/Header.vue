@@ -49,7 +49,7 @@ header {
   width: 100%;
   background-color: black;
   opacity: 80%;
-  padding: 10px;
+  padding: 10px 0 10px 0;
 }
 
 .icons {
@@ -61,9 +61,9 @@ header {
   margin-left: 10px;
 }
 
-.logo:hover{
-    transform: scale(70%);
-    transition: 1s;
-    opacity: 80%;
+.logo:hover {
+  transform: scale(70%);
+  transition: 1s;
+  opacity: 80%;
 }
 </style>
