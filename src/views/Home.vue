@@ -1,31 +1,31 @@
 <template>
-<div class="content">
+  <div class="content">
     <img src="/studio-hero.jpg" class="studio-foto" />
     <h1>Latest releases</h1>
     <div class="albums">
-      <a href="https://www.youtube.com/watch?v=ueLevnjQ6Fw">
+      <a href="https://www.youtube.com/watch?v=ueLevnjQ6Fw" target="_blank">
         <img src="/jupiter-impulse.jpg" class="album"
       /></a>
-      <a href="https://www.youtube.com/watch?v=HCgrBSurmlk">
+      <a href="https://www.youtube.com/watch?v=HCgrBSurmlk" target="_blank">
         <img src="/anaphora.jpg" class="album"
       /></a>
-      <a href="https://www.youtube.com/watch?v=bTc2L4KM7Hw">
+      <a href="https://www.youtube.com/watch?v=bTc2L4KM7Hw" target="_blank">
         <img src="/elpida.jpg" class="album"
       /></a>
-      <a href="https://www.youtube.com/watch?v=i2K1JPRZrqE">
+      <a href="https://www.youtube.com/watch?v=i2K1JPRZrqE" target="_blank">
         <img src="/somnium.jpg" class="album"
       /></a>
-      <a href="https://www.youtube.com/watch?v=nxp5fcwJw2I">
+      <a href="https://www.youtube.com/watch?v=nxp5fcwJw2I" target="_blank">
         <img src="/umbra.jpg" class="album"
       /></a>
-      <a href="https://www.youtube.com/watch?v=ysCD10oSTQg">
+      <a href="https://www.youtube.com/watch?v=ysCD10oSTQg" target="_blank">
         <img src="/little-white-lies.jpg" class="album"
       /></a>
-      <a href="https://www.youtube.com/watch?v=UkX4bNY20zg">
+      <a href="https://www.youtube.com/watch?v=UkX4bNY20zg" target="_blank">
         <img src="/ex-tempore.jpg" class="album"
       /></a>
     </div>
-</div>
+  </div>
 </template>
 
 <style scoped>
@@ -47,7 +47,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-self: center;
-  gap: 70px;
+  gap: 50px;
   justify-content: center;
 }
 .album {

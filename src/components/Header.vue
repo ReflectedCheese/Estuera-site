@@ -4,7 +4,7 @@
       <img src="/estuera_logo.svg" class="logo"
     /></router-link>
     <div class="icons">
-      <a href="https://www.youtube.com/estuera">
+      <a href="https://www.youtube.com/estuera" target="_blank">
         <v-icon
           name="bi-youtube"
           aria-label="youtube"
@@ -12,7 +12,10 @@
           hover
           class="icons"
       /></a>
-      <a href="https://open.spotify.com/artist/0aPasPMebQsHEWlH74l8iv">
+      <a
+        href="https://open.spotify.com/artist/0aPasPMebQsHEWlH74l8iv"
+        target="_blank"
+      >
         <v-icon
           name="bi-spotify"
           aria-label="spotify"
@@ -20,7 +23,7 @@
           hover
           class="icons"
       /></a>
-      <a href="https://www.instagram.com/estuera/">
+      <a href="https://www.instagram.com/estuera/" target="_blank">
         <v-icon
           name="bi-instagram"
           aria-label="instagram"
