@@ -115,7 +115,7 @@ header {
   width: 100%;
   background-color: black;
   opacity: 80%;
-  padding: 10px 0 10px 0;
+  padding: 15px 0 10px 0;
 }
 
 .icons {
@@ -124,7 +124,7 @@ header {
 .logo {
   top: 0;
   width: 20px;
-  margin: 0 20px 0 10px;
+  padding: 0 10px 10px 30px;
 }
 
 .logo:hover {
@@ -149,17 +149,6 @@ header {
     display: none;
   }
 }
-
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
 
 #menuToggle {
   color: #232323;
@@ -194,23 +183,20 @@ header {
 
   cursor: pointer;
 
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
+  opacity: 0; 
+  z-index: 2; 
 
   -webkit-touch-callout: none;
 }
-
-/*
- * Just a quick hamburger
- */
 #menuToggle span {
   display: block;
   width: 30px;
   height: 3px;
   margin-bottom: 5px;
+  margin-top: 5px;
   position: relative;
 
-  background: #cdcdcd;
+  background: #ffffff;
   border-radius: 3px;
 
   z-index: 1;
@@ -229,35 +215,21 @@ header {
   transform-origin: 0% 100%;
 }
 
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
 }
 
-/*
- * But let's hide the middle one.
- */
 #menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
 #menuToggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
 #menu {
   position: absolute;
   width: 100vw;
@@ -269,7 +241,6 @@ header {
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
 
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
@@ -282,9 +253,6 @@ header {
   font-size: 22px;
 }
 
-/*
- * And let's slide it in from the left
- */
 #menuToggle input:checked ~ ul {
   transform: none;
 }
