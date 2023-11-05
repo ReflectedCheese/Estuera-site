@@ -47,7 +47,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-self: center;
-  gap: 50px;
+  gap: 40px;
   justify-content: center;
 }
 .album {
