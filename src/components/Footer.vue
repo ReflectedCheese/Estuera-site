@@ -1,8 +1,6 @@
-<script setup></script>
-
 <template>
   <footer>
-    <div class="copyright">© {{ new Date().getFullYear() }} Jonas Steur Music - Created by Ethos Graphic Design</div>
+    <div class="copyright">© {{ new Date().getFullYear() }} Jonas Steur Music - Created by Ethos Branding </div>
   </footer>
 </template>
 

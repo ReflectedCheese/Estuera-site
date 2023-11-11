@@ -1,6 +1,7 @@
 <template>
   <div class="content">
-    <img src="/studio-hero.jpg" class="studio-foto" />
+    <img src="/studio-hero.jpg" class="studio-foto-desktop" />
+    <img src="/studio-hero-mobile.jpg" class="studio-foto-mobile" />
     <h1>Latest releases</h1>
     <div class="albums">
       <a href="https://www.youtube.com/watch?v=ueLevnjQ6Fw" target="_blank">
@@ -29,9 +30,24 @@
 </template>
 
 <style scoped>
-.studio-foto {
+.studio-foto-desktop {
   padding-top: 50px;
   width: 100%;
+}
+
+.studio-foto-mobile {
+  display: none;
+  padding-top: 65px;
+  width: 100vw;
+}
+
+@media (max-width: 980px){
+  .studio-foto-desktop{
+    display: none;
+  }
+  .studio-foto-mobile{
+    display: block;
+  }
 }
 .content {
   justify-content: center;
@@ -47,7 +63,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-self: center;
-  gap: 40px;
+  gap: 30px;
   justify-content: center;
 }
 .album {

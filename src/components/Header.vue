@@ -124,7 +124,7 @@ header {
 .logo {
   top: 0;
   width: 20px;
-  padding: 0 10px 10px 30px;
+  padding: 0 30px 10px 30px;
 }
 
 .logo:hover {
@@ -179,12 +179,12 @@ header {
   height: 32px;
   position: absolute;
   top: -7px;
-  left: -5px;
+  left: -15px;
 
   cursor: pointer;
 
-  opacity: 0; 
-  z-index: 2; 
+  opacity: 0;
+  z-index: 2;
 
   -webkit-touch-callout: none;
 }
@@ -194,6 +194,7 @@ header {
   height: 3px;
   margin-bottom: 5px;
   margin-top: 5px;
+  margin-left: -20px;
   position: relative;
 
   background: #ffffff;
