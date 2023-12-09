@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="copyright">© {{ new Date().getFullYear() }} Jonas Steur Music - Created by Ethos Branding </div>
+    <div class="copyright">© {{ new Date().getFullYear() }} Jonas Steur Music </div>
   </footer>
 </template>
 

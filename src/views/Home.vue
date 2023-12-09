@@ -4,6 +4,18 @@
     <img src="/studio-hero-mobile.jpg" class="studio-foto-mobile" />
     <h1>Latest releases</h1>
     <div class="albums">
+      <a
+        href="https://youtu.be/07xg0rpn_fQ?si=yBC-Zbn1LSHBcgbT"
+        target="_blank"
+      >
+        <img src="/night-tremors.jpg" class="album"
+      /></a>
+      <a
+        href="https://youtu.be/pyINQlHGj3U?si=tbs_J37Fw5Ylvo6P"
+        target="_blank"
+      >
+        <img src="/isos-19.jpg" class="album"
+      /></a>
       <a href="https://www.youtube.com/watch?v=ueLevnjQ6Fw" target="_blank">
         <img src="/jupiter-impulse.jpg" class="album"
       /></a>
@@ -41,11 +53,11 @@
   width: 100vw;
 }
 
-@media (max-width: 980px){
-  .studio-foto-desktop{
+@media (max-width: 980px) {
+  .studio-foto-desktop {
     display: none;
   }
-  .studio-foto-mobile{
+  .studio-foto-mobile {
     display: block;
   }
 }
