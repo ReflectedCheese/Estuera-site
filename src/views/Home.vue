@@ -5,6 +5,11 @@
     <h1>Latest releases</h1>
     <div class="albums">
       <a
+        href="https://www.youtube.com/watch?v=6I1Nt2OCyrs"
+        target="_blank"
+      >
+        <img src="/zoomer.jpg" class="album"
+      /></a><a
         href="https://youtu.be/07xg0rpn_fQ?si=yBC-Zbn1LSHBcgbT"
         target="_blank"
       >
