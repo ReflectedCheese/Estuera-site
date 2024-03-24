@@ -113,18 +113,21 @@ header {
   flex-wrap: nowrap;
   justify-content: space-between;
   width: 100%;
-  background-color: black;
-  opacity: 80%;
-  padding: 15px 0 10px 0;
+  opacity: 1;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  background: rgba(225, 225, 225, 0.05);
+  padding: 10px 0 5px 0;
 }
 
 .icons {
+  margin-top: 4px;
   margin-right: 20px;
 }
 .logo {
   top: 0;
   width: 20px;
-  padding: 0 30px 10px 30px;
+  padding: 5px 30px 10px 30px;
 }
 
 .logo:hover {
@@ -164,7 +167,7 @@ header {
 
 #menuToggle a {
   text-decoration: none;
-  color: #232323;
+  color: #ffffff;
 
   transition: color 0.3s ease;
 }
@@ -219,7 +222,7 @@ header {
 #menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #ffffff;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -239,7 +242,10 @@ header {
   padding: 50px;
   padding-top: 125px;
 
-  background: #ededed;
+  opacity: 1;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  background: rgba(225, 225, 225, 0.05);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
 

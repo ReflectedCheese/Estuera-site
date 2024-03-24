@@ -10,7 +10,10 @@ footer {
   flex-wrap: nowrap;
   justify-content: center;
   width: 100%;
-  background-color: rgb(0, 0, 0);
+  opacity: 1;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  background: rgba(225, 225, 225, 0.05);
   padding: 10px 0 10px 0;
 }
 .copyright{

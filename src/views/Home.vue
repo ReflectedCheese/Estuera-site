@@ -3,57 +3,30 @@
     <img src="/studio-hero.jpg" class="studio-foto-desktop" />
     <img src="/studio-hero-mobile.jpg" class="studio-foto-mobile" />
     <h1>Latest releases</h1>
-    <div class="albums">
-      <a href="https://www.youtube.com/watch?v=9f37eu84xn0" target="_blank">
-        <img src="/one-more-time.jpg" class="album" /></a
-      ><a href="https://www.youtube.com/watch?v=6I1Nt2OCyrs" target="_blank">
-        <img src="/zoomer.jpg" class="album" /></a
-      ><a
-        href="https://youtu.be/07xg0rpn_fQ?si=yBC-Zbn1LSHBcgbT"
-        target="_blank"
-      >
-        <img src="/night-tremors.jpg" class="album"
-      /></a>
-      <a
-        href="https://youtu.be/pyINQlHGj3U?si=tbs_J37Fw5Ylvo6P"
-        target="_blank"
-      >
-        <img src="/isos-19.jpg" class="album"
-      /></a>
-      <a href="https://www.youtube.com/watch?v=ueLevnjQ6Fw" target="_blank">
-        <img src="/jupiter-impulse.jpg" class="album"
-      /></a>
-      <a href="https://www.youtube.com/watch?v=HCgrBSurmlk" target="_blank">
-        <img src="/anaphora.jpg" class="album"
-      /></a>
-      <a href="https://www.youtube.com/watch?v=bTc2L4KM7Hw" target="_blank">
-        <img src="/elpida.jpg" class="album"
-      /></a>
-      <a href="https://www.youtube.com/watch?v=i2K1JPRZrqE" target="_blank">
-        <img src="/somnium.jpg" class="album"
-      /></a>
-      <a href="https://www.youtube.com/watch?v=nxp5fcwJw2I" target="_blank">
-        <img src="/umbra.jpg" class="album"
-      /></a>
-      <a href="https://www.youtube.com/watch?v=ysCD10oSTQg" target="_blank">
-        <img src="/little-white-lies.jpg" class="album"
-      /></a>
-      <a href="https://www.youtube.com/watch?v=UkX4bNY20zg" target="_blank">
-        <img src="/ex-tempore.jpg" class="album"
-      /></a>
-    </div>
+    <AlbumList />
   </div>
 </template>
+<script lang="ts">
+import { defineComponent } from "vue";
+import AlbumList from "../components/AlbumList.vue";
+
+export default defineComponent({
+  name: "About",
+  components: {
+    AlbumList,
+  },
+});
+</script>
 
 <style scoped>
 .studio-foto-desktop {
-  padding-top: 50px;
+  padding-top: 40px;
   width: 100%;
 }
 
 .studio-foto-mobile {
   display: none;
-  padding-top: 65px;
+  padding-top: 56px;
   width: 100vw;
 }
 
@@ -71,28 +44,15 @@
   width: 100%;
   min-width: 320px;
   padding-bottom: 2rem;
-  background-color: rgb(19, 19, 19);
-}
+  background-image: linear-gradient(to top, #1d1d1d 0%, black 100%);
 
-.albums {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-self: center;
-  gap: 30px;
-  justify-content: center;
-}
-.album {
-  display: flex;
-  flex-wrap: wrap;
-  border-style: solid;
-  border-color: #918f8f;
-  border-radius: 10px;
+  background-blend-mode: multiply, multiply;
 }
 
 h1 {
   text-align: center;
   padding-bottom: 2rem;
+  padding-top: 1rem;
 }
 
 a:hover {
