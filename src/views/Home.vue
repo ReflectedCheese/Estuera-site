@@ -44,7 +44,7 @@ export default defineComponent({
   width: 100%;
   min-width: 320px;
   padding-bottom: 2rem;
-  background-image: linear-gradient(to top, #1d1d1d 0%, black 100%);
+  background-image: linear-gradient(to top, #100f0f 0%, black 100%);
 
   background-blend-mode: multiply, multiply;
 }
