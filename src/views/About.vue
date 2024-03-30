@@ -12,14 +12,6 @@ function getdata() {
 </script>
 <template>
   <img src="/studio-hero.jpg" class="studio-foto-desktop" />
-  <div class="albums">
-    <h1></h1>
-    <ul></ul>
-  </div>
-  <!-- <input type="text" id="pokemonName" placeholder="Enter Pokemon name" />
-    <button onclick="fetchData()">Fetch Pokemon</button><br> -->
-  <!-- <div class="album">{{pokemonSprite}}</div>
-    <img src="" alt="Pokemon Sprite" id="pokemonSprite" style="display: none" /> -->
 </template>
 
 <style scoped>
