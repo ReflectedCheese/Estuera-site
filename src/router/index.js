@@ -3,13 +3,13 @@ import Home from "/src/views/Home.vue";
 import About from "/src/views/About.vue";
 
 const routes = [
-    { path: "/", name: "Home", component: Home },
-    { path: "/about", name: "About", component: About },
-  ]
+  { path: "/", name: "Home", component: Home },
+  { path: "/about", name: "About", component: About },
+];
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
 });
 
-export default router
+export default router;

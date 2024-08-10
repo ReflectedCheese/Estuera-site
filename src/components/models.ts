@@ -1,7 +1,7 @@
 export interface AlbumItem {
-  link: string;
-  cover: string;
+  youtube_link: string;
+  cover_image_link: string;
   id: number;
-  artist: string;
-  track: string;
+  artist_name: string;
+  title: string;
 }

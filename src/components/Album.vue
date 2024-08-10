@@ -1,10 +1,10 @@
 <template>
   <div class="card">
-    <a :href="`${link}`" target="_blank">
-      <img :src="`${cover}`" class="cover"
+    <a :href="`${youtube_link}`" target="_blank">
+      <img :src="`${cover_image_link}`" class="cover"
     /></a>
-    <div class="track">{{track}}</div>
-    <div class="artist">{{artist}}</div>
+    <div class="track">{{ title }}</div>
+    <div class="artist">{{ artist_name }}</div>
   </div>
 </template>
 
@@ -14,19 +14,19 @@ import { defineComponent } from "vue";
 export default defineComponent({
   name: "Album",
   props: {
-    link: {
+    youtube_link: {
       type: String,
       required: true,
     },
-    cover: {
+    cover_image_link: {
       type: String,
       required: true,
     },
-    artist: {
+    artist_name: {
       type: String,
       required: true,
     },
-    track: {
+    title: {
       type: String,
       required: true,
     },
@@ -34,27 +34,25 @@ export default defineComponent({
 });
 </script>
 <style scoped>
-.artist, .track {
+.artist,
+.track {
   color: rgb(255, 255, 255);
-  display: flex;
-  padding-left: 3px;
 }
 
-.track{
+.track {
   font-weight: bold;
   font-size: 14px;
 }
 
-.artist{
+.artist {
   font-size: 14px;
-  color:rgba(255, 255, 255, 0.596)
+  color: rgba(255, 255, 255, 0.596);
 }
 
 .card {
-  display: flex;
   flex-direction: column;
-  height: 260px;
-  
+  height: 300px;
+  width: 200px;
 }
 .cover {
   width: 200px;
