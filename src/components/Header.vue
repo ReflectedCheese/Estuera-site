@@ -21,7 +21,7 @@
           </li>
           <li>
             <a
-              href="https://open.spotify.com/artist/0aPasPMebQsHEWlH74l8iv"
+              href="https://open.spotify.com/artist/1dpapEdSfcmccxziKtJBn5"
               target="_blank"
             >
               <v-icon
@@ -76,7 +76,7 @@
           class="icons"
       /></a>
       <a
-        href="https://open.spotify.com/artist/0aPasPMebQsHEWlH74l8iv"
+        href="https://open.spotify.com/artist/1dpapEdSfcmccxziKtJBn5"
         target="_blank"
       >
         <v-icon
@@ -112,7 +112,7 @@ header {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  width: 100%;
+  width: 100vw;
   opacity: 1;
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
@@ -241,11 +241,11 @@ header {
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-
+  border-style: solid;
   opacity: 1;
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
-  background: rgba(225, 225, 225, 0.05);
+  background-color: rgba(15, 15, 15, 0.454);
+  backdrop-filter: blur(80px);
+
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
 

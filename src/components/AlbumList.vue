@@ -4,10 +4,10 @@
       class="album"
       v-for="(album, index) in albums"
       :key="index"
-      :link="album.link"
-      :cover="album.cover"
-      :artist="album.artist"
-      :track="album.track"
+      :youtube_link="album.youtube_link"
+      :cover_image_link="album.cover_image_link"
+      :artist_name="album.artist_name"
+      :title="album.title"
     />
   </div>
 </template>
@@ -24,14 +24,12 @@
 .album {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .album:hover {
   height: 120%;
   transform: scale(1.1);
   transition: 0.3s;
-  
 }
 </style>
 
